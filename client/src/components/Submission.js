@@ -13,8 +13,8 @@ const SubmissionTable = () => {
   const [editMode, setEditMode] = useState(false);
   const [editSubmissionId, setEditSubmissionId] = useState(null);
 
-  const apiUrl = process.env.REACT_APP_API_URL;
-
+  // const apiUrl = process.env.REACT_APP_API_URL;
+  const apiUrl = "https://crud-with-mern-hoap.onrender.com";
   // Fetch all submissions when the component mounts
   useEffect(() => {
     getSubmissions();

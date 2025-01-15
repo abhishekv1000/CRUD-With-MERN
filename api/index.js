@@ -17,7 +17,7 @@ mongoose.connect("mongodb+srv://abhishekv1000:1221@cluster0.cxg1u.mongodb.net/?r
   .catch(err => console.log(err));
 
 // API Routes
-app.use('/', submissionRoutes);
+app.use('/api', submissionRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

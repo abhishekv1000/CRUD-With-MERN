@@ -1,0 +1,167 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* Background Gradient from light yellow to a deeper yellow */
+  background: linear-gradient(45deg, #FFEB3B, #FF9800);
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Container Styles */
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hea {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2C6B2F;  /* Dark Green */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4E4E4E; /* Dark Gray */
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color:  #FF9800;
+  color: white;
+  font-weight: bold;
+}
+
+.table td {
+  font-size: 1rem;
+  color: #555;
+}
+
+.action-buttons .delete {
+  padding: 6px 12px;
+  /* width: 20px; */
+  width: 50%; 
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons .delete:hover {
+  background-color: #e53935;
+}
+
+/* Edit and Update Button Styles */
+.action-buttons .update {
+  padding: 6px 12px;
+  background-color: #388e3c; 
+  width: 50%; /* Dark Green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons .update:hover {
+  background-color: #2c6e2f;  /* Slightly darker green for hover */
+}
+
+/* Create/Update Form Styles */
+.create-form {
+  margin-top: 30px;
+}
+
+.create-form input,
+.create-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.create-form input:focus,
+.create-form textarea:focus {
+  border-color: #328535;
+  outline: none;
+}
+
+.create-form .questions-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.create-form input[type="text"] {
+  flex: 1;
+}
+
+.submit {
+  padding: 12px 24px;
+  background-color: #2d722f;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.cancel {
+  padding: 12px 24px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel:hover {
+  background-color: #e53935;
+}
+
+/* Centered Text Class */
+.hea {
+  text-align: center;
+}
